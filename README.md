@@ -16,7 +16,9 @@ isKing
 
 ```javascript
 function(a,b){
-return a + b
+return a + b;
+}
+
 ```
 
 
@@ -26,14 +28,15 @@ would print out 6 and 7) in Javascript
 
 ```javascript
 foo([3,6,1,7])
-function array()
+function foo(){
 for ( var i = 0; i < foo.length; i++) {
 if ( foo[i] > 5) {
 console.log(foo[i]);
 }
-};
 else {
+}
 };
+}
 ```
 
 
