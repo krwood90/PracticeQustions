@@ -72,9 +72,9 @@ var fred = {major: music}
 fred.sum = function(a,b) {
 if(a < b){
 return a;
-}else(a > b){
+}else if(a > b){
 return b;
-} else if(a = b){
+} else (a == b){
 return a*b;
 }
 };
