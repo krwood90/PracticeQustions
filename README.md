@@ -125,9 +125,11 @@ someone is dealt the joker. Display a dialogue message to the losing player.
 ```javascript
 var deck= [1, ..., joker, ..., 52]
 function() {
-if(x = joker){
+for( var i = 0; i < deck.length; i++){
+if([i] = joker){
 console.log("you drew the Joker, you lost.")
 }else{
+}
 }
 };
 ```
