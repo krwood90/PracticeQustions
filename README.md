@@ -68,11 +68,11 @@ that is a function that takes 2 numbers and returns the smallest of the two, or 
 var fred = {major: music}
 fred.sum = function(a,b) {
 if(a < b){
-return a
+return a;
 }else(a > b){
-return b
+return b;
 } else if(a = b){
-return a*b
+return a*b;
 }
 };
 
