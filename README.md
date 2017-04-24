@@ -13,15 +13,18 @@ isKing
 
 
 3.Write a function that takes two numbers as arguments and returns the sum of the two numbers in Javascript
+
+```javascript
 function(a,b){
 return a + b
-
+```
 
 
 4.Write a function that takes an array as an argument and prints out the numbers 
 in the array that are greater than 5 (for example foo([3,6,1,7]) 
 would print out 6 and 7) in Javascript
 
+```javascript
 foo([3,6,1,7])
 function array()
 for ( var i = 0; i < foo.length; i++) {
@@ -31,13 +34,14 @@ console.log(foo[i]);
 };
 else {
 };
-
+```
 
 
 
 5.Write a for loop that will iterate from 0 to 20. For each iteration, 
 it will check if the current number is even or odd, and report that to the screen in Javascript
 
+```javascript
 array[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 for(var i = 0; i < array.length; i++) {
 if(array[i] % 2 == 0) {
@@ -47,7 +51,7 @@ else {
 console.log(array[i])
 }
 };
-
+```
 
 
 
@@ -60,6 +64,7 @@ this. refer to the owner of the function being executed.
 7.Create an object that has properties with name = "fred" and major="music" and a property 
 that is a function that takes 2 numbers and returns the smallest of the two, or the square of the two if they are equal.
 
+```javascript
 var fred = {major: music}
 fred.sum = function(a,b) {
 if(a < b){
@@ -71,11 +76,12 @@ return a*b
 }
 };
 
-
+```
 
 
 8.What’s the result of executing this code and why? 
 
+```javascript
 The resultfunction test() {
    console.log(a);
    console.log(foo());
@@ -87,6 +93,7 @@ The resultfunction test() {
 }
 
 test(); 
+```
 is 1 because the script never reachs the function assignment before solving
 but the (var a = 1) gets moved up so it solves for that.
 
@@ -95,6 +102,8 @@ but the (var a = 1) gets moved up so it solves for that.
 
 9.Write a function to print out the song lyrics to "99 Bottles of Beer." 
 Now add a case for when there are no bottles left.
+
+```javascript
 var bottles[99, ..., 0]
 function (){
 for (var i = 0; i < bottles.length; i++){
@@ -105,7 +114,7 @@ bottles.push = case
 }
 console.log([i] + " bottles of beer.")
 };
-
+```
 
 
 
@@ -113,6 +122,7 @@ console.log([i] + " bottles of beer.")
 with a single joker. Deal a random card to each player each turn. The game ends when 
 someone is dealt the joker. Display a dialogue message to the losing player.
 
+```javascript
 var deck= [1, ..., joker, ..., 52]
 function() {
 if(x = joker){
@@ -120,7 +130,7 @@ console.log("you drew the Joker, you lost.")
 }else{
 }
 };
-
+```
 
 
 
