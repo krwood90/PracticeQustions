@@ -1,4 +1,4 @@
-# PracticeQustions
+# PracticeQuestions
 Java
 
 
